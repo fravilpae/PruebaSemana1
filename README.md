@@ -1,10 +1,10 @@
-#Proyecto Vehiculo conducible
+# Proyecto Vehiculo conducible
 
 Este es un proyecto Java que define varias clases de vehículos, que heredan de la superclase Vehiculo. A su vez, los vehículos que puedan ser conducidos tendrán implementada la interfaz Conducible.
 
 Para utilizar este proyecto no requiere instalación previa.
 
-##Descripción
+## Descripción
 La clase Vehiculo representa a todos los tipos de vehículos y se utiliza para como superclase para los distintos tipos de vehículo existentes en el proyecto. Esta clase contiene información sobre el color, la matrícula y el número de
 ruedas del vehículo.
 
@@ -19,7 +19,7 @@ Todos las clases que implementen Conducible tendrán una serie de atributos espe
 - espacioRecorrido: Espacio recorrido por el vehículo.
 - enMarcha: Booleano que indica si el vehículo está arrancado o no.
 
-##Funcionalidades
+## Funcionalidades
 **Clase Vehiculo**
 
 La clase Vehiculo tiene las siguientes funcionalidades:
@@ -62,7 +62,7 @@ getVelocidadMedia(): Devuelve la velocidad media durante el viaje realizado.
 
 Todos los métodos en común salvo reiniciarDatos() se encuentran en la interfaz Conducible.
 
-##Uso
+## Uso
 **Uso de la clase Coche**
 
 Para utilizar la clase, primero debe instanciar un objeto Coche pasando los argumentos adecuados al constructor. Luego, puede llamar a los métodos arrancar(), avanzar(), retroceder(), parar(), getTiempoViaje() y getVelocidadMedia() según sea necesario.
@@ -71,5 +71,5 @@ Para utilizar la clase, primero debe instanciar un objeto Coche pasando los argu
 
 Para utilizar la clase, primero debe instanciar un objeto Camion pasando los argumentos adecuados al constructor. Luego, puede llamar a los métodos arrancar(), avanzar(), retroceder(), parar(), getTiempoViaje() y getVelocidadMedia() según sea necesario.
 
-##Historia
+## Historia
 Versión 1.0 (2024-12-10) - Lanzamiento inicial
